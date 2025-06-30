@@ -5,5 +5,6 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/ToDo2/',
   plugins: [react(),tailwindcss(), svgr()],
 })
