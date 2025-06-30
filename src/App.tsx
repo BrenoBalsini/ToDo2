@@ -5,7 +5,7 @@ import PageHome from "./pages/page-home";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ToDo2">
       <Routes>
         <Route element={<LayoutMain/>}>
           <Route index element={<PageHome/>}/>
